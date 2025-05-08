@@ -1,0 +1,36 @@
+{
+    "fr": {
+      "Profil": "Profil",
+      "Recettes": "Recettes",
+      "Nom": "Nom",
+      "Prénom": "Prénom",
+      "Email": "Email",
+      "Rôle": "Rôle",
+      "Recherche": "Recherche",
+      "Ajouter une recette": "Ajouter une recette",
+      "Déconnexion": "Déconnexion",
+      "À propos": "À propos",
+      "Contact": "Contact",
+      "Modifier le profil": "Modifier le profil",
+      "Entrez le nom de la recette": "Entrez le nom de la recette",
+      "Découvrez nos recettes spéciales du jour !": "Découvrez nos recettes spéciales du jour !",
+      "Chargement des recettes...": "Chargement des recettes..."
+    },
+    "en": {
+      "Profil": "Profile",
+      "Recettes": "Recipes",
+      "Nom": "Name",
+      "Prénom": "First Name",
+      "Email": "Email",
+      "Rôle": "Role",
+      "Recherche": "Search",
+      "Ajouter une recette": "Add a recipe",
+      "Déconnexion": "Logout",
+      "À propos": "About",
+      "Contact": "Contact",
+      "Modifier le profil": "Edit Profile",
+      "Entrez le nom de la recette": "Enter recipe name",
+      "Découvrez nos recettes spéciales du jour !": "Check out today’s special recipes!",
+      "Chargement des recettes...": "Loading recipes..."
+    }
+  }

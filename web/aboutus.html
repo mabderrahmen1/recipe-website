@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À Propos de Nous</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function toto3() {
+            $("h2, .container").hide();
+
+            $('#HomeContent').show();
+
+            $.ajax({
+                method: 'GET',
+                url: 'welcom.php',
+                dataType: 'html',
+                success: function (response) {
+                    $('#HomeContent').html(response).show();
+                }
+            });
+        };
+    </script>
+</head>
+
+<body>
+    <div class="aboutus" id="onglet2"></div>
+    <div class="aboutus" id="onglet1">
+
+        <div class="container">
+            <header>
+            </header>
+
+            <main>
+                <section>
+                    <h2>Notre Mission</h2>
+                    <p>
+                        Notre mission est de créer une plateforme conviviale pour les amateurs de cuisine, où ils
+                        peuvent
+                        découvrir, partager et explorer des recettes du monde entier. Que vous soyez un cuisinier
+                        débutant
+                        ou un chef expérimenté, notre site vous offre les outils pour gérer vos recettes, les traduire
+                        en
+                        plusieurs langues, et interagir avec une communauté passionnée.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Notre Équipe</h2>
+                    <p>
+                        Nous sommes une équipe d'étudiants en informatique de l'Université Paris-Saclay, passionnés par
+                        la
+                        programmation web et la cuisine. Ce projet a été développé dans le cadre de notre cours de
+                        programmation web, et nous sommes fiers de vous présenter le résultat de notre travail.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Notre Vision</h2>
+                    <p>
+                        Nous croyons que la cuisine est un langage universel qui rapproche les gens. Notre vision est de
+                        rendre les recettes accessibles à tous, indépendamment de la langue ou des compétences
+                        culinaires.
+                        Grâce à notre plateforme, vous pouvez explorer des recettes en français et en anglais, et même
+                        contribuer à les traduire pour les partager avec le monde entier.
+                    </p>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <ul>
+        <li><button id="Homebutton" onclick='toto3()'>Home</button></li>
+    </ul>
+    <div id="HomeContent" style="display: none;"></div>
+
+</body>
+
+</html>

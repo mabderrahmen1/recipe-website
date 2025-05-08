@@ -1,0 +1,19 @@
+[
+    {
+        "like": 3,
+        "dislike": 0,
+        "users": {
+            "ab@gmail.com": "liked",
+            "wassimmm26.7@yahoo.com": "liked",
+            "abderrahmen.mrabti@etu-upsaclay.fr": "liked"
+        }
+    },
+    {
+        "like": 0,
+        "dislike": 2,
+        "users": {
+            "wassimmm26.7@yahoo.com": "disliked",
+            "abderrahmen.mrabti@etu-upsaclay.fr": "disliked"
+        }
+    }
+]
